@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Text Overlay controls</title>
+    <meta charset="UTF-8">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="streamQueue.css">
+</head>
+<body>
+	<form id="get-tournaments">
+		<button type="submit">Get Tournaments</button>
+	</form>
+
+	<div>
+		<h3>Tournament</h3>
+		<span id="tournament-select-buttons">
+
+		</span>
+		<span>
+			<button id="look-for-queues-button" class="customButton">
+				🔍 Get stations
+			</button>
+		</span>
+		<p id="connection-state"></p>
+	</div>
+
+	<form id="get-stream">
+		<h3>Station</h3>
+		<span id="stream-select-buttons" class="customButton">
+
+		</span>
+	</form>
+	
+	<h3>Matches</h3>
+	<div id="stream-queue-sets"></div>
+
+</body>
+<script type="module" src="streamQueue.js"/>
+</html>

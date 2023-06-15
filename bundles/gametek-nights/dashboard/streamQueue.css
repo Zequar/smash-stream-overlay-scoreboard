@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#stream-queue-sets {
+    margin-top: 10px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 10px;
+}
+
+.streamQueueSetBox {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(30,30,40);
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.streamQueueSetBox:hover {
+    filter: drop-shadow(0 0 0.4rem white);
+}
+
+.playerTeam {
+    font-size: 17px;
+    font-weight: 300;
+    color: lightskyblue;
+}
+
+.playerTag {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.round {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.vs {
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.customButton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.dropdown {
+    width: 60vw;
+}

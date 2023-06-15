@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Text Overlay</title>
+    <meta charset="UTF-8">
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>	
+	<img id="background" 
+	src="overlays/ingame2.png">
+
+	<!-- PLAYER 1 -->
+	<div id="player-one-infos">
+	<!-- P1 NAME + SPONSOR -->
+		<div 
+		class="player-style"
+		id="player-one-box"
+		>
+		<span id="player-one-sponsor">Sponsor</span>
+		<span id="player-one">Player 1</span>
+		</div>
+
+	<!-- P1 SCORE BACKGROUND -->
+		<div 
+		class="score-background-style player-one-score-bg-spacing"
+	>
+		 
+		</div>
+
+	<!-- P1 SCORE TEXT -->
+		<div 
+		class="score-style player-one-score-spacing"
+		id="player-one-score"
+	>
+		0
+		</div>
+
+	<!-- P1 TWITTER -->
+		<div
+		id="player-one-twitter"
+		class="player-twitter-text player-one-twitter-spacing">
+		@ZombawChien
+		</div>
+	</div>
+
+	<!-- PLAYER 2 -->
+	<div id="player-two-infos">
+	<!-- P2 NAME & SPONSOR-->
+		<div 
+		class="player-style"
+		id="player-two-box"
+		>
+		<span id="player-two-sponsor">Sponsor</span>
+		<span id="player-two">Player 1</span>
+		</div>
+
+	<!-- P2 SCORE BACKGROUND -->
+		<div 
+		class="score-background-style player-two-score-bg-spacing"
+	>
+		 
+		</div>
+
+	<!-- P2 SCORE TEXT -->
+		<div 
+		class="score-style player-two-score-spacing"
+		id="player-two-score"
+	>
+		1
+		</div>
+
+	<!-- P2 TWITTER -->
+		<div
+		id="player-two-twitter"
+		class="player-twitter-text player-two-twitter-spacing">
+		@ZombawChien
+		</div>
+	</div>
+
+	<!-- ROUND -->
+	<div id="round-name"
+	class="subtitle">
+		GRAND FINALS
+	</div>
+
+	<!-- ROUND -->
+	<div id="casters"
+	class="subtitle">
+		WALID & ZEQUAR
+	</div>
+
+	<script>
+		const textReplicant = nodecg.Replicant('textReplicant');
+		textReplicant.on('change', value => {
+			document.getElementById('player-one').innerHTML = value;
+			document.getElementById('player-two').innerHTML = value;
+			document.getElementById('player-one-sponsor').innerHTML = value;
+			document.getElementById('player-two-sponsor').innerHTML = value;
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.caster-style {
+    font-size: 40px;
+    z-index: 10;
+    position: absolute;
+    width: 270px;
+    top: 806px;
+    margin-left: 16px;
+    margin-right: 16px;
+    filter: drop-shadow(0px 0px 25px #044);
+}
+
+
+
+#caster-one-sponsor {
+    color: #E3FFFF;
+}
+
+#caster-two-sponsor {
+    color: #E3FFFF;
+}
+
+#caster-one-box {
+    left: 240px;
+}
+
+#caster-two-box {
+    left: 870px;
+}
+
+#next-match {
+    position: absolute;
+    left: 1445px;
+    top: 108px;
+    font-size: 32px;
+    width: 380px;
+}

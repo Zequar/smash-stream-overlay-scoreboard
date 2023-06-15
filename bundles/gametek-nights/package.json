@@ -1,0 +1,64 @@
+{
+  "name": "gametek-nights",
+  "version": "0.0.0",
+  "description": "Overlays for gametek nights",
+  "homepage": "",
+  "author": {
+    "name": "Zequar",
+    "email": "martin.galoux@epitech.eu",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "panel",
+        "title": "Scoreboard",
+        "width": 4,
+        "file": "panel.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "streamQueue",
+        "title": "Stream Queue",
+        "width": 3,
+        "file": "streamQueue.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "ingame.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "casters.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "players.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "end.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT"
+}

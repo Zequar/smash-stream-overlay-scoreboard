@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Text Overlay controls</title>
+    <meta charset="UTF-8">
+
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+	<form id="update-overlay">
+
+		<div class="roundBox">
+			<label for="round"  class="round">Round</label>
+			<input class="customInput" id="round" placeholder="Current Round">
+		</div>
+
+		<div class="playersWrapper">
+			<div class="playerWrapper player1">
+				<div>
+					<span class="playerBoxName">
+						Player 1
+					</span>
+					<span>
+						<input 
+							id="p1-score"
+							type="number"
+							placeholder="0"
+							class="score"/>
+					</span>
+				</div>
+				<div class="formLabel">
+					<input class="customInput inputLeftSide" id="p1-sponsor" placeholder="Player 1 Sponsor">
+				</div>
+				<div class="formLabel" >
+					<input class="customInput inputLeftSide" id="p1-name" placeholder="Player 1 Name">
+				</div>
+				<div  class="formLabel" >
+					<input class="customInput inputLeftSide" id="p1-twitter" placeholder="Player 1 Twitter">
+				</div>
+			</div>
+
+			<button class="customButton" id="swap-button">🔄Swap</button>
+
+			<div class="playerWrapper player2">
+				<div>
+					<span>
+						<input 
+							id="p2-score"
+							type="number"
+							placeholder="0"
+							class="score"/>
+					</span>
+					<span class="playerBoxName">
+						Player 2
+					</span>
+				</div>
+				
+				<div class="formLabel">
+					<input class="customInput" id="p2-sponsor" placeholder="Player 2 Sponsor">
+				</div>
+				<div class="formLabel" >
+					<input class="customInput" id="p2-name" placeholder="Player 2 Name">
+				</div>
+				<div  class="formLabel" >
+					<input class="customInput" id="p2-twitter" placeholder="Player 2 Twitter">
+				</div>
+			</div>
+			
+		</div>
+
+		<h3 class="center">Casters</h3>
+		<div class="castersWrapper">
+			<div>
+				<input class="customInput inputLeftSide" id="c1-sponsor" placeholder="Caster 1 Team">
+				<input class="customInput inputLeftSide" id="c1-name" placeholder="Caster 1 Name">
+			</div>
+			<h1 id="microphone">🎤</h1>
+			<div>
+				<input class="customInput" id="c2-sponsor" placeholder="Caster 2 Team">
+				<input class="customInput" id="c2-name" placeholder="Caster 2 Name">
+			</div>
+
+		</div>
+
+		<br>
+		<div id="buttonsWrapper">
+			<button class="bigButton" type="submit">✔️Update</button>
+			<button class="bigButton" id="clear-button">🗑️Clear</button>
+		</div>
+	</form>
+
+</body>
+<script type="module" src="panel.js"/>
+</html>

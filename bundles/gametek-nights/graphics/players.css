@@ -1,0 +1,102 @@
+.player-style {
+    font-size: 32px;
+    z-index: 10;
+    position: absolute;
+    width: 400px;
+    top: 846px;
+}
+
+.score-style {
+    width: 40px;
+    height: 48px;
+    position: absolute;
+    top: 834px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.score-background-style {
+    font-weight: 700;
+    background-color: rgb(0,0,0, 0.4);
+    border-radius: 8px;
+    width: 43px;
+    height: 53px;
+    position: absolute;
+    top: 842px;
+}
+
+#player-one {
+    filter: drop-shadow(0px 0px 25px #FECCFF);
+    font-weight: 700;
+}
+
+#player-one-score {
+    filter: drop-shadow(0px 0px 25px #FECCFF);
+}
+
+.player-one-score-bg-spacing {
+    left: 560px;
+}
+
+.player-two-score-bg-spacing {
+    right: 557px;
+}
+
+.player-one-score-spacing {
+    left: 562px;
+}
+
+.player-two-score-spacing {
+    right: 558px;
+}
+
+#player-two-score {
+    filter: drop-shadow(0px 0px 25px #E3FFFF);
+}
+
+
+#player-one-sponsor {
+    color: #FECCFF;
+}
+
+#player-two {
+    font-weight: 700;
+    filter: drop-shadow(0px 0px 25px #E3FFFF);
+}
+
+#player-two-sponsor {
+    color: #E3FFFF
+}
+
+#player-one-box {
+    left: 140px;
+}
+
+#player-two-box {
+    right: 140px;
+}
+
+#round-name {
+    position: absolute;
+    top: 851px;
+    left: 700px;
+    width: 520px;
+    font-size: 45px;
+}
+
+.caster {
+    position: absolute;
+    top: 918px;
+    width: 200px;
+    font-size: 25px;
+}
+
+#caster-one {
+    text-align: end;
+    left: 725px;
+}
+
+#caster-two {
+    text-align: start;
+    right: 725px;
+}

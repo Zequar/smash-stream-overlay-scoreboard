@@ -1,0 +1,22 @@
+body {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#background {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
